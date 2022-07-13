@@ -1,5 +1,5 @@
 import _ from "lodash";
-import Image from "next/image";
+// import Image from "next/image";
 import { Box, Card, CardActionArea, CardContent, Typography } from "@mui/material";
 import { latest } from '../__mocks__/latest';
 import { API } from "aws-amplify";
@@ -32,7 +32,7 @@ export default function ProductsList() {
     const shoesList = _.map(products, shoes => (
         <Card key={shoes.id}>
             <CardActionArea>
-                <Image
+                <img
                     src={shoes.image_url}
                     alt={shoes.title}
                     height={445}

@@ -8,7 +8,7 @@ import { EmotionCache } from '@emotion/cache';
 import createEmotionCache from './utils/create-emotion-cache';
 import '../../configureApmlify'
 import '@aws-amplify/ui-react/styles.css';
-import theme from './theme';
+import theme from '../theme';
 import UserProvider from '../context/UserContext';
 import { Authenticator } from '@aws-amplify/ui-react';
 
